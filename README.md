@@ -1,16 +1,20 @@
-# account_picker_demo
+# Account Picker Demo
 
-A new Flutter project.
+## Information:
 
-## Getting Started
+- Information regarding phone number prompt:
 
-This project is a starting point for a Flutter application.
+  - The 'Pick Phone' button will show a prompt window where you can see your device's sim card numbers. You don't need to type your phone number.
+  - In case if prompt closes automatically after clicking on the button or does not open after clicking on the button, then it means that your phone doesn't have any sim card inserted.
 
-A few resources to get you started if this is your first Flutter project:
+- Information regarding phone number prompt:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  - The 'Pick Email' button will show a prompt window where you can see your device's email addresses. You don't need to type your email address.
+  - In case if prompt redirects you to an account management setup portal, then it means the app does not find any appropriate email account on this device. That's why it is redirecting you to the account management setup portal.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Due to privacy problems, this app cannot see or use your device's sim card numbers & email addresses if you close the prompt window without selecting anything. That's why this app does not require any special device permission.
+
+- Note: All these features currently work on Android devices only.
+
+## Preview
+![alt text](https://i.postimg.cc/YqWYwzwS/Screenshot-20230930-101049-portrait-copy.png "img")
